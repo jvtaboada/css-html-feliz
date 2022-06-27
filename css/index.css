@@ -1,0 +1,80 @@
+/* PALETA DE CORES
+
+https://flatuicolors.com/palette/es
+OBS: a ideia é usar um roxo, que eu curto mt, e uma cor mais neutra, tipo um bege e um cinza
+
+HEADER: escrita - crocodile tooth / bg - lucky point / bolinha e btn - c64 purple
+
+*/
+
+.logo{
+    display: inline-block;
+    width: 112px;
+    height: 88px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between; /* joga cada elemento filho pra um lado da tela*/
+    background-color: #2c2c54;
+    border-bottom: 10px solid #000;
+    padding: 10px 20px;
+}
+
+nav{
+    text-align: right;
+}
+
+a{
+    display: inline-flex;
+    align-items: center;
+    color: #d1ccc0;
+    font-family: 'Nova Square', cursive; /* fall back de font = cursive*/
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+a::before{ /* pseudo elemento - bolinha antes das palavras*/
+    content: "";
+    background-color: #706fd3;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+#button{
+    background-color: #706fd3;
+    box-shadow: 5px 5px 0px #000000;
+    border-radius: 8px; /* design do botão*/
+
+    display: inline-block; /* para o ser um quadrado em volta do texto, nao a linha toda*/
+    height: 60px;
+    line-height: 60px; /* posição da palavra dentro do botão */
+
+    padding: 5px 20px; /* "respiro" da palavra com o botão*/
+    margin-right: 0px;
+    font-weight: bold;
+
+    transition: transform 100ms linear;
+}
+
+#button:hover{
+    transform: scale(1.15);
+}
+
+/* fonte para o titulo João Taboada*/
+@font-face {
+    font-family: Summit;
+    src: local("Summit"), url(SummitBold-Display.ttf); /* tem que estar na mema pasta*/
+}
+
+.name-title{
+    font-family: 'Summit';
+    font-size: 45px;
+}
+
+
+    
