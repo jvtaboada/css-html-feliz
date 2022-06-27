@@ -45,36 +45,5 @@ a::before{ /* pseudo elemento - bolinha antes das palavras*/
     border-radius: 10px;
 }
 
-#button{
-    background-color: #706fd3;
-    box-shadow: 5px 5px 0px #000000;
-    border-radius: 8px; /* design do botão*/
-
-    display: inline-block; /* para o ser um quadrado em volta do texto, nao a linha toda*/
-    height: 60px;
-    line-height: 60px; /* posição da palavra dentro do botão */
-
-    padding: 5px 20px; /* "respiro" da palavra com o botão*/
-    margin-right: 0px;
-    font-weight: bold;
-
-    transition: transform 100ms linear;
-}
-
-#button:hover{
-    transform: scale(1.15);
-}
-
-/* fonte para o titulo João Taboada*/
-@font-face {
-    font-family: Summit;
-    src: local("Summit"), url(SummitBold-Display.ttf); /* tem que estar na mema pasta*/
-}
-
-.name-title{
-    font-family: 'Summit';
-    font-size: 45px;
-}
-
 
     
