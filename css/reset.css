@@ -1,3 +1,22 @@
+/* SÓ USAR SELETOR DE TAG NO RESET, NUMA COISA GERAL
+COMPONENTES DEVEM SER FLEXÍVEIS! */
+
+body, h1, h2, h3{
+	margin: 0;
+}
+
+body {
+	line-height: 1;
+	font-family: 'Nova Square', cursive;  /* fall back de font = cursive*/
+}
+
+button{
+	border: none;
+	font-family: inherit;
+}
+
+
+/* RESET QUE PEGUEI PRONTO 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -18,26 +37,29 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
+
+ HTML5 display-role reset for older browsers 
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
-	line-height: 1;
-}
+
 ol, ul {
 	list-style: none;
 }
+
 blockquote, q {
 	quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+*/

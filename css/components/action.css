@@ -1,0 +1,18 @@
+.action{
+    display: inline-flex;
+    align-items: center;
+    color: #d1ccc0;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+.action::before{ /* pseudo elemento - bolinha antes das palavras*/
+    content: "";
+    background-color: #706fd3;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+}

@@ -4,7 +4,7 @@
     src: local("Summit"), url(SummitBold-Display.ttf); /* tem que estar na mema pasta*/
 }
 
-h1{
+.title{
     font-family: 'Nova Square', cursive;
     font-size: 70px;
     font-weight: bold;
