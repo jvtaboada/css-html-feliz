@@ -12,12 +12,10 @@
 
     font-weight: bold;
     text-decoration: none;
-    color: #d1ccc0;
+    color: #33d9b2;
     font-size: 25px;
 
     transition: transform 100ms linear;
-
-    
 }
 
 .button:hover{

@@ -1,9 +1,10 @@
 .header{
     display: flex;
-    justify-content: space-between; /* joga cada elemento filho pra um lado da tela*/
+    justify-content: flex-end; /* joga cada elemento filho pra um lado da tela*/
     background-color: #2c2c54;
-    border-bottom: 10px solid #000;
     padding: 10px 20px;
+
+    border-bottom: 10px solid #000;
 }
 
 /* ELEMENTO DO COMPONENTE HEADER = NÃO É UMA COMPONENTE A PARTE E

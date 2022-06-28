@@ -13,13 +13,16 @@
 
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/index.css">
-        
-        <link rel="stylesheet" href="css/components/title.css">
-        <link rel="stylesheet" href="css/components/btn.css">
-        <link rel="stylesheet" href="css/components/subtitle.css">
-        <link rel="stylesheet" href="css/components/box.css">
-        <link rel="stylesheet" href="css/components/action.css">
+                
         <link rel="stylesheet" href="css/components/header.css">
+        <link rel="stylesheet" href="css/components/action.css">
+        <link rel="stylesheet" href="css/components/btn.css">
+
+        <link rel="stylesheet" href="css/components/banner.css">
+        <link rel="stylesheet" href="css/components/box.css">
+        <link rel="stylesheet" href="css/components/title.css">
+        <link rel="stylesheet" href="css/components/subtitle.css">
+        
 
     </head>
 
@@ -28,7 +31,7 @@
          
     <body>
         <header class="header"> 
-            <img src="assets/img/logo.png" class="logo">   
+            <!--<img src="assets/img/logo.png" class="logo">   
 
             <nav> <!-- navegação no site -->
                 <a class="action" href="" lang="en">Skills</a>
@@ -40,11 +43,18 @@
             </nav>
         </header>  
 
-    <!-- BOX = abriga o title e subtitle-->
-        <div class="box">
-           <h1 class="title">João Vitor</h1>
-           <h2 class="subtitle">System Analysis and<br> Development Student</h2>
-        </div>
+        <!-- Section tem valor semântico de separar a página em seções e abrigar os relacionados 
+             Div -->
+        <section class="banner">
+            <div class="wrapper">
+                <div class="box">
+                    <h1 class="title">João Vitor</h1>
+                    <h2 class="subtitle">System Analysis and<br> Development Student</h2>
+                </div>
+
+                <a class="button" href="">Quero te contratar!</a>
+            </div>
+        </section>
         
     </body>
 </html>
