@@ -1,4 +1,4 @@
-#button{
+.button{
     background-color: #706fd3;
     box-shadow: 5px 5px 0px #000000;
     border-radius: 8px; /* design do botão*/
@@ -9,11 +9,17 @@
 
     padding: 5px 20px; /* "respiro" da palavra com o botão*/
     margin-right: 0px;
+
     font-weight: bold;
+    text-decoration: none;
+    color: #d1ccc0;
+    font-size: 25px;
 
     transition: transform 100ms linear;
+
+    
 }
 
-#button:hover{
+.button:hover{
     transform: scale(1.15);
 }
