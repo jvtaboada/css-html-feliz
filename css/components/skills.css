@@ -1,0 +1,15 @@
+.skills{
+    background-color: #706fd3;
+    height: 730px;
+
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+    border-bottom: 10px solid #2C2C54;
+}
+
+.skills .title{
+    display: flex;
+    justify-content: center;
+    padding-top: 95px;
+}
