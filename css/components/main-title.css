@@ -4,7 +4,7 @@
     src: local("Summit"), url(SummitBold-Display.ttf); /* tem que estar na mema pasta*/
 }
 
-.title{
+.main-title{
     font-family: 'Nova Square', cursive;
     font-size: 70px;
     font-weight: bold;
@@ -12,3 +12,15 @@
 
     text-shadow: 3px 3px 0px #000000;
     }
+
+.second{
+    /*Titulos das seções*/
+    text-align: center;
+    text-shadow: none;
+    }
+
+.third{
+    /*Fonte do componente skill*/
+    color: #d1ccc0;
+    font-size: 55px;
+}
