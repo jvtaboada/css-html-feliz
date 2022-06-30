@@ -1,0 +1,17 @@
+.skills-tec{
+    /*Posicionamento*/
+    box-sizing: border-box;
+    display: flex;
+
+}
+
+.skills-tec .icon{
+    margin-right: 25px;
+    height: 125%;
+}
+
+.skills-tec .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
