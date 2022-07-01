@@ -13,6 +13,10 @@
     background-color: #706fd3;
 }
 
+.section.skills .main-title{
+    margin-bottom: 60px;
+}
+
 .section.projects{
     background-color: #d1ccc0;
     border-bottom: 10px solid #706FD3;

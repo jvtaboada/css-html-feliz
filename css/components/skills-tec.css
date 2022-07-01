@@ -1,17 +1,32 @@
 .skills-tec{
-    /*Posicionamento*/
-    box-sizing: border-box;
     display: flex;
+    align-items: center;
+}
 
+.skills-tec .title{
+    color: #d1ccc0;
+    font-size: 50px;
+    text-shadow: none;
+
+    margin-bottom: 14px;
 }
 
 .skills-tec .icon{
     margin-right: 25px;
-    height: 125%;
+    width: 130px;
+    height: 130px;
 }
 
 .skills-tec .right{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+
+.skills-tec .progress{
+    border: 7px solid #d1ccc0;
+}
+
+.skills-tec .progress-bar{
+    background-color: #2C2C54;
 }

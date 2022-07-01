@@ -1,12 +1,12 @@
 /* fonte para o titulo João Taboada*/
 @font-face {
     font-family: Summit;
-    src: local("Summit"), url(SummitBold-Display.ttf); /* tem que estar na mema pasta*/
+    src: local("Summit"), url(SummitBold-Display.ttf); /* tem que estar na mesma pasta*/
 }
 
 .main-title{
     font-family: 'Nova Square', cursive;
-    font-size: 70px;
+    font-size: 90px;
     font-weight: bold;
     color: #2c2c54;
 
@@ -14,13 +14,7 @@
     }
 
 .second{
-    /*Titulos das seções*/
+    /*titulos das seções*/
     text-align: center;
     text-shadow: none;
     }
-
-.third{
-    /*Fonte do componente skill*/
-    color: #d1ccc0;
-    font-size: 55px;
-}
