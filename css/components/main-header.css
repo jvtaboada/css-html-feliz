@@ -1,7 +1,8 @@
-.header{
+.main-header{
     display: flex;
-    justify-content: flex-end; /* joga cada elemento filho pra um lado da tela*/
+    justify-content: flex-end;
     background-color: #2c2c54;
+    
     padding: 10px 20px;
 
     border-bottom: 10px solid #000;
@@ -10,7 +11,7 @@
 /* ELEMENTO DO COMPONENTE HEADER = NÃO É UMA COMPONENTE A PARTE E
 NÃO FUNCIONA SEM O COMPONENTE HEADER */
 
-.header .logo{
+.main-header .logo{
     width: 90px;
-    height: 65px;}
+    height: 65px;
 }

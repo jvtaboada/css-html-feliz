@@ -1,7 +1,7 @@
 /* fonte para o titulo João Taboada*/
 @font-face {
     font-family: Summit;
-    src: local("Summit"), url(SummitBold-Display.ttf); /* tem que estar na mesma pasta*/
+    src: local("Summit"), url(/assets/fonts/SummitBold-Display.ttf); /* tem que estar na mesma pasta*/
 }
 
 .main-title{
@@ -13,8 +13,7 @@
     text-shadow: 3px 3px 0px #000000;
     }
 
-.second{
-    /*titulos das seções*/
+.section-title{
     text-align: center;
     text-shadow: none;
     }

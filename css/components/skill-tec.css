@@ -1,9 +1,9 @@
-.skills-tec{
+.skill-tec{
     display: flex;
     align-items: center;
 }
 
-.skills-tec .title{
+.skill-tec .title{
     color: #d1ccc0;
     font-size: 50px;
     text-shadow: none;
@@ -11,22 +11,24 @@
     margin-bottom: 14px;
 }
 
-.skills-tec .icon{
+.skill-tec .icon{
     margin-right: 25px;
     width: 130px;
     height: 130px;
 }
 
-.skills-tec .right{
+.skill-tec .right{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
 
-.skills-tec .progress{
+
+
+.skill-tec .progress{
     border: 7px solid #d1ccc0;
 }
 
-.skills-tec .progress-bar{
+.skill-tec .progress-bar{
     background-color: #2C2C54;
 }

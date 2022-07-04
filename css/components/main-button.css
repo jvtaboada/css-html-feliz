@@ -1,4 +1,4 @@
-.button{
+.main-button{
     background-color: #706fd3;
     box-shadow: 5px 5px 0px #000000;
     border-radius: 8px; /* design do botão*/
@@ -18,6 +18,9 @@
     transition: transform 100ms linear;
 }
 
-.button:hover{
+.main-button:hover{
     transform: scale(1.15);
+
+    color: #706fd3;
+    background-color: #33d9b2;
 }

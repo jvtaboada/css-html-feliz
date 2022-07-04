@@ -8,7 +8,7 @@
     margin-right: auto;
 }
 
-.wrapper-skill .skills-tec{
+.wrapper-skill .skill-tec{
     margin-bottom: 40px;
 }
 
@@ -17,6 +17,6 @@
     height: 60px;
 } 
 
-.wrapper-skill .skills-tec:nth-child(even){
+.wrapper-skill .skill-tec:nth-child(even){
     margin-left: 100px;
 }

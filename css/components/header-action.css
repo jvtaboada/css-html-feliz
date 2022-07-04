@@ -1,4 +1,4 @@
-.action{
+.header-action{
     display: inline-flex;
     align-items: center;
     color: #d1ccc0;
@@ -8,11 +8,13 @@
     margin-right: 40px;
 }
 
-.action::before{ /* pseudo elemento - bolinha antes das palavras*/
+.header-action::before{ /* pseudo elemento - bolinha antes das palavras*/
     content: "";
     background-color: #706fd3;
+    
+    margin-right: 10px;
+    
     width: 10px;
     height: 10px;
-    margin-right: 10px;
     border-radius: 10px;
 }
