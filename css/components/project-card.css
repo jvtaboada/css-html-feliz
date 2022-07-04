@@ -1,0 +1,23 @@
+.project-card{
+    background-color: #2c2c54;
+    width: 350px;
+    height: 350px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 10px 10px 0px #FFF;
+    border-radius: 5px;
+
+    transition: transform 250ms linear;
+}
+
+.project-card .project-icon{ /*este é um elemento q só vou usar dentro do componente project-card*/
+    width: 75%;
+    height: 75%;
+}
+
+.project-card:hover{
+    transform: scale(1.2);
+}

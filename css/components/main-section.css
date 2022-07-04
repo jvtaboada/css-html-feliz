@@ -2,7 +2,7 @@
     padding-top: 50px;
     padding-bottom: 100px;
 
-    height: 730px;
+    height: 740px;
 
     background-size: 100%;
 
@@ -20,5 +20,7 @@
 .main-section.projects{
     background-color: #d1ccc0;
     border-bottom: 10px solid #706FD3;
+
+    height: 530px;
 }
 
