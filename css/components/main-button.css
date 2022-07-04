@@ -1,6 +1,6 @@
 .main-button{
     background-color: #706fd3;
-    box-shadow: 5px 5px 0px #000000;
+    box-shadow: 5px 5px 0px #000;
     border-radius: 8px; /* design do botão*/
 
     display: inline-block; /* para o ser um quadrado em volta do texto, nao a linha toda*/
