@@ -15,6 +15,10 @@ button{
 	font-family: inherit;
 }
 
+a{
+	text-decoration: none;
+}
+
 
 /* RESET QUE PEGUEI PRONTO 
 html, body, div, span, applet, object, iframe,
