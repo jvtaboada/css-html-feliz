@@ -1,0 +1,14 @@
+.skill-bar{
+    border: 7px solid #d1ccc0;
+    width: 400px;
+    height: 60px;
+
+    background: #FFF;
+}
+
+.bar-inner{
+    background: #2c2c54;
+
+    width: 20px;
+    height: 60px;
+}

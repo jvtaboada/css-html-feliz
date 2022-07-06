@@ -22,13 +22,3 @@
     flex-direction: column;
     justify-content: space-around;
 }
-
-
-
-.skill-tec .progress{
-    border: 7px solid #d1ccc0;
-}
-
-.skill-tec .progress-bar{
-    background-color: #2C2C54;
-}
