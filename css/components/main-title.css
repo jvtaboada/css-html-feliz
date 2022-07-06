@@ -17,3 +17,12 @@
     text-align: center;
     text-shadow: none;
     }
+
+.section-title.about-title{
+    color: #d1ccc0;
+}
+
+.section-title.contact-title{
+    color: #FFF;
+}
+
