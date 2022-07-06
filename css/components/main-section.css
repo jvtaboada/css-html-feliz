@@ -24,3 +24,12 @@
     height: 530px;
 }
 
+.main-section.about{
+    background-color: #2C2C54;
+    border-bottom: 10px solid #D1CCC0;
+}
+
+.main-section.contact{
+    background-color: #84817a;
+    border-bottom: none;
+}
