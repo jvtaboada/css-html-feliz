@@ -1,0 +1,7 @@
+.wrapper-cards{
+    display: flex;
+    flex-wrap: nowrap; /*POR DEFAULT É ASSIM, APENAS DECLARANDO*/
+
+    max-width: 100%;
+    justify-content: center;
+}
