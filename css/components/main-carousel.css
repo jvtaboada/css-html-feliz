@@ -26,7 +26,7 @@
 
     left: 0;
     right: 0;
-    width: 100%;
+    max-width: 100%;
     border: 2.6px dashed #33d9b2;
 
     top: 60px;
