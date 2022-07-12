@@ -1,10 +1,28 @@
 .node-card{
-    font-size: 40px;
-    color: #D1CCC0;
-
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
     align-items: center;
+
+    position: relative;
+}
+
+.node-card::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    box-sizing: border-box;
+    height: 0px;
+    width: 40px;
+    border: 2.5px dashed #33d9b2;
+    transform: rotate(90deg) translateX(-62%);
+    bottom: 140px;
+}
+
+.node-card .title{
+    font-size: 40px;
+    color: #33d9b2;
+
+    margin-bottom: 70px;
 }
 
 .node-card .logo{
@@ -12,13 +30,10 @@
     justify-content: center;
     align-items: center;
 
-    width: 220px;
+    padding-left: 20px;
+    padding-right: 20px;
     height: 140px;
     
-    background-color: #fff;
+    background-color: #FFF;
     border: 3px solid #D1CCC0;
- }
-
- .node-card .dois-cards{
-    display: flex;
  }
