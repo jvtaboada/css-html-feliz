@@ -32,6 +32,8 @@
         <link rel="stylesheet" href="css/components/main-carousel.css">
         <link rel="stylesheet" href="css/components/node-card.css">
         <link rel="stylesheet" href="css/components/button-arrow.css">
+        <link rel="stylesheet" href="css/components/description-hover.css">
+
         <link rel="stylesheet" href="css/components/main-description.css">
 
         <link rel="stylesheet" href="css/components/main-footer.css">
@@ -208,8 +210,13 @@
                         <figure class="node-card">
                             <figcaption class="title" >até 2015</figcaption>
 
-                            <div onmouseover="" class="logo">
+                            <div class="logo dropdown">
                                 <img src="./assets/img/carousel/sesi.png" alt="Logo do Sesi">
+                                    <div class="dropdown-content">
+                                        <a href="#">Link 1</a>
+                                        <a href="#">Link 2</a>
+                                        <a href="#">Link 3</a>
+                                    </div>
                             </div>
                         </figure>
                         
@@ -259,8 +266,10 @@
 
             <p class="main-description">João atualmente é Estagiário de Infra na Logus Retail e estudante de ADS na Fatec. 
                 <br>No seu tempo livre estuda desenvolvimento web e gosta de assistir e-sports. 
-                <br><br>Para mais detalhes passe o mouse nos cards acima.</p>
-
+                <div class="main-description details">
+                    *Para mais detalhes passe o mouse nos cards acima.
+                </div>
+            </p>
 
         </section>
     

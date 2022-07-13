@@ -42,25 +42,35 @@
     position: absolute;
     bottom: 70px;
 
-    transform: translateY(50%); /*alinhas verticalmente*/
+    transform: translateY(50%);
+}
+
+.main-carousel .button-arrow:active{
+    transform: translateY(1cm);
 }
 
 .main-carousel .button-arrow.right{
     right: 15px;
+
+    transition: transform 250ms linear;
 }
 
 .main-carousel .button-arrow.left{
+    transition: transform 250ms linear;
+
     left: 15px;
+
+    z-index: 1;
 }
 
+
 .main-carousel .wrapper{
-    width: 100%;
-    overflow: hidden;
+    width: 100%;  
 }
 
 .main-carousel .elements{
     display: flex;
     justify-content: space-between;
-
+    
     transition: transform 300ms;
 }
