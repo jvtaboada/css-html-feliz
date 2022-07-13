@@ -1,5 +1,11 @@
 .main-carousel{
+    display: flex;
+    justify-content: space-between;
+
     position: relative;
+
+    padding-left: 90px;
+    padding-right: 90px;
 }
 
 .main-carousel::after{
@@ -26,7 +32,7 @@
 
     left: 0;
     right: 0;
-    max-width: 100%;
+
     border: 2.6px dashed #33d9b2;
 
     top: 60px;
@@ -45,4 +51,16 @@
 
 .main-carousel .button-arrow.left{
     left: 15px;
+}
+
+.main-carousel .wrapper{
+    width: 100%;
+    overflow: hidden;
+}
+
+.main-carousel .elements{
+    display: flex;
+    justify-content: space-between;
+
+    transform: translateX(100px);
 }
