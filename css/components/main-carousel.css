@@ -62,5 +62,5 @@
     display: flex;
     justify-content: space-between;
 
-    transform: translateX(100px);
+    transition: transform 300ms;
 }
