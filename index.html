@@ -33,8 +33,9 @@
         <link rel="stylesheet" href="css/components/node-card.css">
         <link rel="stylesheet" href="css/components/button-arrow.css">
         <link rel="stylesheet" href="css/components/description-hover.css">
-
         <link rel="stylesheet" href="css/components/main-description.css">
+
+        <link rel="stylesheet" href="css/components/contact-forms.css">
 
         <link rel="stylesheet" href="css/components/main-footer.css">
 
@@ -336,6 +337,27 @@
         <!-- Seção CONTATO -->
         <section class="main-section contact">
             <h2 class="main-title section-title contact-title">Entre em contato!</h2>
+
+            <form class="contact-forms" action="/send-message" method="post">
+                <div class="line">
+                    <label for="nome">Nome</label>
+                    <input class="short" type="text" id="nome"/>
+                </div>
+                <div class="line">
+                    <label for="email">E-mail</label>
+                    <input class="short" type="email" id="email"/>
+                </div>
+                <div class="line">
+                    <label for="msg">Mensagem</label>
+                    <textarea class="long" id="msg"></textarea>
+                </div>
+
+                <div class="line">
+                    <button class="main-button forms" type="submit">Enviar</button>
+                </div>
+                  
+            </form>
+
         </section>
 
 
