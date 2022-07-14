@@ -4,6 +4,7 @@
     position: absolute;
 
     background-color: #33d9b2;
+    opacity: 0.92;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     border-radius: 3px;
 
@@ -11,22 +12,28 @@
     width: 110%;
 
     left: 0;
-    top: 260px;
+    top: 253px;
+
+    line-height: 1.2;
   }
   
 /* Style inside the dropdown */
-.description-hover p {    
-    padding: 10px;
-
+.description-hover p {
+    font-weight: bold;
     font-size: 25px;
-    line-height: 1.2;
-
+    color: #706fd3;
     text-align: center;
   }
   
 /* Only to show dropdown on hover*/
 .node-card .logo:hover .description-hover{
-    display: block;  
+    display: block;
+    cursor: pointer;
+}
+
+.node-card .logo:hover{
+  background-color: #e0f4ea;
+  cursor: pointer;
 }
  
   
