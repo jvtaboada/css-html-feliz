@@ -24,20 +24,3 @@
     color: #706fd3;
     background-color: #33d9b2;
 }
-
-.main-button.forms{
-    width: 100%;
-    height: 70px;
-
-    font-size: 45px;
-
-    cursor: pointer;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.main-button.forms:hover{
-    transform: none;
-}

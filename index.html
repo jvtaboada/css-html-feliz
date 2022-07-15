@@ -36,6 +36,7 @@
         <link rel="stylesheet" href="css/components/main-description.css">
 
         <link rel="stylesheet" href="css/components/contact-forms.css">
+        <link rel="stylesheet" href="css/components/submit-button.css">
 
         <link rel="stylesheet" href="css/components/main-footer.css">
 
@@ -338,6 +339,7 @@
         <section class="main-section contact">
             <h2 class="main-title section-title contact-title">Entre em contato!</h2>
 
+            <!--action="/send-message" method="post"-->
             <form class="contact-forms" action="/send-message" method="post">
                 <div class="line">
                     <label for="nome">Nome</label>
@@ -349,13 +351,13 @@
                 </div>
                 <div class="line">
                     <label for="msg">Mensagem</label>
-                    <textarea class="long" id="msg"></textarea>
+                    <textarea class="long" id="msg" spellcheck=""></textarea>
                 </div>
 
-                <div class="line">
-                    <button class="main-button forms" type="submit">Enviar</button>
+                <!-- botão sem função ainda porque é bonitinho-->
+                <div class="submit-button">
+                    <div class="tick"></div>
                 </div>
-                  
             </form>
 
         </section>

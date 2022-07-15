@@ -6,7 +6,7 @@
     margin: 0 40px;
 }
 
-.line{ /* DIV LABEL E INPUT = LINHA*/
+.line{ /* DIV LABEL E INPUT*/
     display: flex;
     flex-direction: column;
 
@@ -19,7 +19,6 @@
 }
 
 .line .short, .line .long{ /*INPUTS E TEXTAREA*/
-    margin-bottom: 7px;
     padding: 5px;
 
     height: 50px;
