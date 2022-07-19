@@ -1,9 +1,10 @@
-/* Dropdown Content (Hidden by Default) */
 .description-hover {
     visibility: hidden;
     opacity: 0;
 
-    transition:visibility 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    box-sizing: border-box;
+
+    transition:visibility 0.4s ease-in-out, opacity 0.4s ease-in-out;
 
     background-color: #33d9b2;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -16,18 +17,25 @@
     left: 0;
     top: 253px;
 
-    line-height: 1.2;
+    line-height: 1.2;    
+
+    padding: 10px 0;
   }
   
-/* Style inside the dropdown */
+.description-hover ul{
+    padding: 0 25px;
+}
+
 .description-hover p {
     font-weight: bold;
     font-size: 25px;
     color: #706fd3;
+
     text-align: center;
+
+    padding-bottom: 12px;
   }
   
-/* Only to show dropdown on hover*/
 .node-card .logo:hover .description-hover{
     visibility: visible;
     opacity: 0.92;
@@ -38,7 +46,4 @@
   background-color: #e0f4ea;
   cursor: pointer;
 }
- 
-  
-  /* Change the background color of the dropdown button when the dropdown content is shown */
   
