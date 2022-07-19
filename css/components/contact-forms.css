@@ -9,6 +9,7 @@
 .line{ /* DIV LABEL E INPUT*/
     display: flex;
     flex-direction: column;
+    gap: 8px;
 
     margin-bottom: 30px;
 
@@ -30,7 +31,7 @@
 }
 
 .line .short:focus, .line .long:focus{
-    border-color:#000;
+    border-color: #000;
 }
 
 .line .long{
