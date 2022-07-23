@@ -21,8 +21,14 @@ NÃO FUNCIONA SEM O COMPONENTE HEADER */
     color: #33d9b2;
 }
 
-@media (max-width: 800px ) { /*definindo breakpoint*/
+@media (max-width: 800px) { /*definindo breakpoint p esconder o menu la em cima*/
     .main-header > .menu{
         display: none;
     } 
+}
+
+@media (min-width: 800px) { /*definindo breakpoint p esconder o icone de menu-mobile*/
+    .main-header > .menu-mobile{
+        display: none;
+    }
 }
