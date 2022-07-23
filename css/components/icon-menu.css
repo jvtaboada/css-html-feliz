@@ -1,0 +1,9 @@
+.icon-menu{
+    background-image: url(../../assets/img/icone-menu.png);
+    background-size: 100%; /* adicionando o icone de menu mobile*/
+
+    text-indent: -9999px; /* empurrar o texto pra fora da img*/
+
+    width: 90px; /* tamanho do icone menu mobile */
+    height: 90px;
+}
