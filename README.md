@@ -4,7 +4,7 @@ Meu primeiro portfólio construído em HTML, CSS e JavaScript. Projeto para apre
 - HTML
 - CSS
 - VanillaJS 
-- :heavy_check_mark: Responsivo
+- Responsivo (Work in progress :heavy_check_mark:)
 <br><br>
 ## :orange_book: Cursos utilizados
 Para construção da página, foram utilizados dois cursos do Marco Bruno (:tv:: https://www.twitch.tv/marcobrunodev): <br>
