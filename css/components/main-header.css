@@ -20,3 +20,9 @@ NÃO FUNCIONA SEM O COMPONENTE HEADER */
 .main-header nav a:hover{
     color: #33d9b2;
 }
+
+@media (max-width: 800px ) { /*definindo breakpoint*/
+    .main-header > .menu{
+        display: none;
+    } 
+}
