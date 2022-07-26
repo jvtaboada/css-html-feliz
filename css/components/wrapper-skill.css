@@ -11,7 +11,7 @@
 }
 
 .wrapper-skill .skill-tec{
-    /* margin-bottom: 40px; */
+    margin-bottom: 40px; 
 }
 
 .wrapper-skill .progress{
@@ -29,6 +29,11 @@
     }
 
     .wrapper-skill{
-        gap: 80px;
+        gap: 60px;
     }
+
+    .wrapper-skill .skill-tec{
+        margin-bottom: 0; 
+    }
+    
 }
