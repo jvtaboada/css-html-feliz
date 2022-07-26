@@ -1,6 +1,16 @@
 .wrapper-projects{
     display: flex;
     justify-content: center;
+    align-items: center;
 
     gap: 150px;
+
+    padding-bottom: 5vh;
+}
+
+@media (max-width: 800px){ /*DE 0 ATÉ 800PX*/
+    .wrapper-projects{
+        flex-direction: column;
+        gap: 80px;
+    }
 }

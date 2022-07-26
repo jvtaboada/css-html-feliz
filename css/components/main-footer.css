@@ -3,12 +3,14 @@
     justify-content: space-between;
     align-items: center;
 
-    height: 80px;
+    max-width: 100%;
+    height: 5vh;
+    width: 100vw;
     background-color: #D1CCC0;
 }
 
 .main-footer .social-icon{
-    margin-right: 30px;
+    padding-right: 30px;
 }
 
 .main-footer .name-inc{
@@ -22,4 +24,10 @@
     height: 12px;
 
     margin-right: 5px;
+}
+
+@media (min-width: 800px){ /*A PARTIR DE 800 PX*/
+    .main-footer{
+        height: 8vh;
+    }
 }
