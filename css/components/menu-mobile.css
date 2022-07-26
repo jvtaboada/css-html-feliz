@@ -1,21 +1,21 @@
-/* .menu-mobile{
+.menu-mobile{
     background-image: url(../../assets/img/icone-menu.png);
-    background-size: 100%; /* adicionando o icone de menu mobile
+    background-size: 100%; /* adicionando o icone de menu mobile */
 
-    text-indent: -9999px; /* empurrar o texto pra fora da img
+    text-indent: -9999px; /* empurrar o texto pra fora da img */
 
-    width: 90px; /* tamanho do icone menu mobile 
+    width: 90px; /* tamanho do icone menu mobile */
     height: 90px;
 }
 
-@media (min-width: 800px) { /*definindo breakpoint p esconder o icone de menu-mobile
+@media (min-width: 800px) { /*definindo breakpoint p esconder o icone de menu-mobile */
     
 
     .menu > .menu-close{
         display: none;
     }
 }
-*/
+
 
 /* RESPONSIVO DO MENU NAV */ 
 @media (max-width: 800px) { /*DE 0 ATÉ 8OO PX, FAZER: */
@@ -39,5 +39,5 @@
 
     .menu > .menu-mobile{
         display: block;
-    }
-} */
+    } */
+}
