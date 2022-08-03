@@ -3,8 +3,8 @@ Meu primeiro portfólio construído em HTML, CSS e JavaScript. Projeto para apre
 ## :wrench: Tecnologias utilizadas
 - HTML
 - CSS
-- VanillaJS 
-- Responsivo (Work in progress :heavy_check_mark:)
+- VanillaJS (JavaScript puro)
+- Responsivo (:construction: Work in progress :construction:)
 <br><br>
 ## :orange_book: Cursos utilizados
 Para construção da página, foram utilizados dois cursos do Marco Bruno (:tv:: https://www.twitch.tv/marcobrunodev): <br>
